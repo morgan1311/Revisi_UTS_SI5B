@@ -1,4 +1,4 @@
-const Prodi = require('../models/prodiModel');
+const Prodi = require('../models/petugasModel');
 
 exports.create = async (req, res) => {
   try {

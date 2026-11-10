@@ -4,7 +4,7 @@
 require('dotenv').config({ quiet: true });
 const mongoose = require('mongoose');
 const Prodi = require('./models/prodiModel');
-const Mahasiswa = require('./models/mahasiswaModel');
+const Mahasiswa = require('./models/pinjamanModel');
 
 const NAMA = ['Andi', 'Budi', 'Citra', 'Dewi', 'Eko', 'Fitri', 'Gita', 'Hadi', 'Indra', 'Joko',
   'Kiki', 'Lina', 'Maya', 'Nanda', 'Oka', 'Putri', 'Qori', 'Rina', 'Sari', 'Tono',
